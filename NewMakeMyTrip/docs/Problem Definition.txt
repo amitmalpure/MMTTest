@@ -1,0 +1,10 @@
+Problem statement: 
+	Automate a flight booking scenario. Select end to end workflow.
+	Develop extendible, scalable and modular framework.
+	No hard coding.
+	Use selenium webdriver and java.
+	Develop positive and negative test cases.
+	Generate result.
+	Handle exceptions.
+	Webapp: https://www.makemytrip.com
+

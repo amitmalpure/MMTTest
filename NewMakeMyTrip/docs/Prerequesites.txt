@@ -1,0 +1,6 @@
+Softwares:
+	Eclipse 3.4 or above
+	Java 1.7 or above
+	Selenium 2.52
+	Drivers
+	

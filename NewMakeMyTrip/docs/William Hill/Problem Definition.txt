@@ -1,0 +1,6 @@
+Problem statement: 
+	WH_Technical_Exercise_QA_v1.2 (2)
+
+Pending tasks:
+	Due to lack of time, I couldn't write negative test cases and result logs. 
+	But given enough time, I can provide code for that as well.

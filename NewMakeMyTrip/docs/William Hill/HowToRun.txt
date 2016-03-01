@@ -1,0 +1,20 @@
+	Setup environment:
+	
+		Using attached ZIP:
+		Download zip file attached to the email.
+		Extract all the java files to the local machine.
+		Download selenium 2.52 jar.
+		Download drivers.
+		Create java project in eclipse.
+		Create folders 'src', 'lib'.
+		Create package 'com.wh' under src folder.
+		Add Java files to appropriate package.
+		Add Jars and drivers to lib foolder.
+		Add selenium jar to build path.
+		Clean and build the project.
+		There should not be any errors.
+		
+	Run:
+		1. Single java file: 	WHSample.java
+		2. Basic framework: 	BetAHorseScript.java
+	

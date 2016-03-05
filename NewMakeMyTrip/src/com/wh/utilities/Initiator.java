@@ -71,11 +71,11 @@ public class Initiator
 		return new FirefoxDriver();
 	}
 	
-	public static WebDriver launch()
+	public static WebDriver launch(String url)
 	{
 		WebDriver webDriver = Initiator.initWebDriver();
 		
-		webDriver.get(DataMaper.getURL());
+		webDriver.get(url);
 		webDriver.manage().timeouts().implicitlyWait(DataMaper.getGlobalwait(), TimeUnit.SECONDS);
 		webDriver.manage().window().maximize();
 		

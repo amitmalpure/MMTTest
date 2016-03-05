@@ -5,6 +5,7 @@ import org.testng.TestException;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.wh.actions.BetSlipActions;
@@ -66,18 +67,19 @@ public class BetAHorseScriptUsinTNG
 				};
 	}
 
+    @Parameters({"URL"})
 	@BeforeTest
-	public void launchBrowser()
+	public void launchBrowser(String url)
 	{
-		System.out.println("beforeTest");
+		System.out.println("URL : " + url);
 		betImpl = new BetImpl();
-		betImpl.init();
+		betImpl.init(url);
 	}
 
 	@AfterTest
 	public void closeBrowser() 
 	{
-		System.out.println("afterTest");
+		System.out.println("Closing Browser.");
 		WebDriver webDriver = betImpl.getWebDriver();
 		Utils utils = new Utils(webDriver);
 		utils.closeBrowser();

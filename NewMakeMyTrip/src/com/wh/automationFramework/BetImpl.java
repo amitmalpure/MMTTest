@@ -6,6 +6,7 @@ import com.wh.actions.BetSlipActions;
 import com.wh.actions.KeyPadActions;
 import com.wh.actions.RaceCardActions;
 import com.wh.actions.Utils;
+import com.wh.utilities.DataMaper;
 import com.wh.utilities.Initiator;
 
 public class BetImpl implements IWHTest
@@ -19,7 +20,12 @@ public class BetImpl implements IWHTest
 	
 	public void init()
 	{
-		webDriver = Initiator.launch();
+		init(DataMaper.getURL());
+	}
+
+	public void init(String url) 
+	{
+		webDriver = Initiator.launch(url);
 	}
 	
 	public void executeTest()

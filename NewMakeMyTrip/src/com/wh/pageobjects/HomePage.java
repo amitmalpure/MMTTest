@@ -8,7 +8,7 @@ public class HomePage
 {
 	public static WebElement getHorseRacingTabElement(WebDriver webDriver)
 	{
-		WebElement webElement = webDriver.findElement(By.xpath("//*[@id='local-nav']/div/ul[1]/li[2]/a"));
+		WebElement webElement = webDriver.findElement(By.xpath("//*[@id='local-nav']/div/ul[1]/li[1]/a"));
 		return webElement;
 	}
 }

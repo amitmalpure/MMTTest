@@ -48,4 +48,9 @@ public class BetImpl implements IWHTest
 		
 		utils.closeBrowser();
 	}
+
+	public WebDriver getWebDriver()
+	{
+		return webDriver;
+	}
 }

@@ -1,0 +1,60 @@
+QUESTIONS:
+
+1.	What is your view on QA’s role within the software development team and within a sprint? What is quality and what tasks should QA be concerned with?
+	
+		Whether it be traditional Waterfall or agile methodologies, QA plays an important role in software development. 
+		On Waterfall projects QA is involved at the end of the project / module once all coding is complete.
+		Instead the Scrum team is a cross-functional where developers, business analysts and QAs all work together.
+		I have learned that the role of QA in Scrum is much more than just writing test cases and reporting bugs to the team.
+
+		While QAs still write tests and report bugs, they also support many other roles and responsibilities on the team. 
+		They are an important part of the team and are involved in the project right from the very beginning.
+		QA should participate in Estimating Stories, 
+			       Automate Regression Testing, 
+			       Participate In Release and Demos
+			       Analyze User Requirements
+			       Plan Testing With Testing Strategies.
+
+2.	Tell us about how you  interact with developers during a sprint, 
+	How you manage expectations and maintain quality when release pressure is high? 
+	How would you handle delivering to a tight deadline if developers wanted to skip testing in favor of delivering features? 
+	How would you handle this conflict?
+
+		QAs need to be constantly in touch with developers and product owners to clarify user stories and changes.
+		Also in order to resolve found issues, it's necessary to work with developers hand in hand.
+		I have used tools like JIRA to keep track of enhancements issue fixes.
+
+		Communication is the key to release pressure because it will decrease understanding gap and save a lot of time.
+		Automation suites need to be build and updated according to user stories and changes. 
+		I have developed a very generic, extendable and reusable framework using keyword driven approach which helps
+		avoiding rework and testers can easily integrate their tests with the regression pack.
+
+		In my project we automate scenarios developed in previous sprint also correct the scenarios changed / fixed. 
+		All the enhancements and issue lifecycle is tracked by JIRA tool and thus can be easily monitored by management. 
+		The conflicting scenario mentioned in the question occurs sometimes. 
+		In some scenarios even management wants testers to mark JIRA issues as fixed in spite of issue not getting resolved. 
+		It becomes more difficult to fight the situation as pressure increases. Testers can't win times. 
+
+3.	What is your experience using the .Net stack, C# and Visual Studio? How comfortable are you getting involved in technical implementation discussions?
+
+		I have been automating web application using java, selenium and related technologies from several years. 
+		After so many years working in IT, underlying technology does not matter much. Overall understanding of the software
+		is more important. Syntax can be easily learnt.
+
+		I have extensive experience in developing an automation framework (in fact a tool) which replaced 1000+ QTP licenses in my previous organization.
+		This automation tool I have developed from scratch using appropriate design patterns, multithreading and a lot more.
+		Thus I am a thorough technical guy with design, implementation and automation stack.
+
+4.	What is your experience with javascript frameworks and writing end-to-end UI tests using javascript?
+
+		I have using javascript for automation purposes a lot of times. I integrated those javascript codes with my java tool.
+		I know AngularJS, JQuery etc. And so I believe, though I don't have any such hands on experience, I can write end-to-end UI tests using javascript easily.
+
+5.	How active are you in the community? Please tell us about any meetups you have attended recently, any blogs or forums you might contribute to or any open source projects you have committed to.
+
+		I generaly use stackoverflow for fetch knowledge and resolve my queries. It's still a dream to attend thoughtworks selenium conference. 
+
+6.	What experience do you have testing Web apps and/or what experience do you have that makes you think you will be an asset to the Web team?
+
+		I have been automating web applications from several years including legacy as well as richui technologies.
+		I have played incredible role in testing teams before and my capabilities to write reusable and extendible code is a key asset for any team.

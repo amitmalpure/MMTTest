@@ -1,6 +1,8 @@
 Problem statement: 
-	WH_Technical_Exercise_QA_v1.2 (2)
-
+	Write an automated browser-based test on William Hill site, an online racing and sports betting website.
+	URL: https://www.williamhill.com.au/
+	Scenario: Add a Horse racing bet to the Bet slip and add some stake.
+	
 Pending tasks:
 	Due to lack of time, I couldn't write negative test cases and result logs. 
 	But given enough time, I can provide code for that as well.

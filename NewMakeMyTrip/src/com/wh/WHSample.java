@@ -15,7 +15,7 @@ public class WHSample {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 
-		driver.findElement(By.xpath("//*[@id='local-nav']/div/ul[1]/li[2]/a")).click();
+		driver.findElement(By.xpath("//a[@data-gaq-id='Horse Racing']")).click();
 		//driver.findElement(By.linkText("/horse-racinggrid"));
 		//driver.findElement(By.xpath("//a[text()='Horse Racing']")).click();
 
@@ -25,8 +25,8 @@ public class WHSample {
 
 		Thread.sleep(3000);
 
-
-		driver.findElement(By.xpath("//a[contains(@data-link-pricetoplace,'1.85')]")).click();
+		
+		driver.findElement(By.xpath("//a[contains(@data-link-pricetowin,'1.85')]")).click();
 		//driver.findElement(By.xpath("//a[text()='7.50']")).click();
 
 		Thread.sleep(3000);

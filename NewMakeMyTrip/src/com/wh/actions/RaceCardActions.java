@@ -38,13 +38,13 @@ public class RaceCardActions
 		return true;
 	}
 	
-	public void clickPricetoPlace(String priceToPlace)
+	public void clickPricetoWin(String priceToWin)
 	{
-		WebElement webElement = RaceCardPage.getPricetoPlaceElement(webDriver, priceToPlace);
+		WebElement webElement = RaceCardPage.getPricetoWinElement(webDriver, priceToWin);
 		
 		if(webElement == null || !webElement.isEnabled())
 		{
-			JOptionPane.showMessageDialog(null, "Price to place not found!");
+			JOptionPane.showMessageDialog(null, "Price to win not found!");
 		}
 		
 		webElement.click();

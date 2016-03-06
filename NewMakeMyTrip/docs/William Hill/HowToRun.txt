@@ -6,15 +6,28 @@
 		Download selenium 2.52 jar.
 		Download drivers.
 		Create java project in eclipse.
+		Add TestNG library to project build path.
 		Create folders 'src', 'lib'.
 		Create package 'com.wh' under src folder.
 		Add Java files to appropriate package.
-		Add Jars and drivers to lib foolder.
+		Add Jars and drivers to lib folder.
 		Add selenium jar to build path.
 		Clean and build the project.
 		There should not be any errors.
 		
+	Note: Tester need to update following data (in @DataProvider for testNG):
+			1. Set race to be selected
+			2. Set track to be selected
+			3. Set price to win	
 	Run:
-		1. Single java file: 	WHSample.java
-		2. Basic framework: 	BetAHorseScript.java
-	
+		1. Using TestNG in Eclipse:
+				> Go to Run Configuration
+				> Create new Configuration
+				> Set Configuration Name
+				> Select desired Project
+				> In Run section, Select Suite : RunTest.xml
+				> Apply and Run.
+				
+		2. Single java file: 	com.wh.WHSample.java
+		
+		3. Basic framework: 	com.wh.BetAHorseScript.java

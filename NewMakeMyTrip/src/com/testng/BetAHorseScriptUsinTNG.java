@@ -24,7 +24,7 @@ public class BetAHorseScriptUsinTNG
 		return new Object[][] 
 				{
 			new Object[] {"Bunbury", 8, "2.4"},
-			new Object[] {"Bunbury", 9, "2.9"},
+			new Object[] {"Bunbury", 9, "13"},
 				};
 	}
 
@@ -74,7 +74,7 @@ public class BetAHorseScriptUsinTNG
 		BetSlipActions betSlipActions = new BetSlipActions(webDriver);
 		KeyPadActions keyPadActions = new KeyPadActions(webDriver);
 
-		raceCardActions.clickPricetoPlace(priceToPlace);
+		raceCardActions.clickPricetoWin(priceToPlace);
 		raceCardActions.clickBetSlipButton();
 
 		betSlipActions.clickStakeTxtBox();

@@ -15,6 +15,6 @@
 		There should not be any errors.
 		
 	Run:
-		1. Single java file: 	MMTSample.java
-		2. Basic framework: 	BookFlightScript.java
+		1. Single java file: 	com.mmt1.MMTSample.java
+		2. Basic framework: 	com.mmt1.BookFlightScript.java
 	

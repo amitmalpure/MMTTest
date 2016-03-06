@@ -14,9 +14,9 @@ public class RaceCardPage
 		return webElement;
 	}
 	
-	public static WebElement getPricetoPlaceElement(WebDriver webDriver, String priceToPlace)
+	public static WebElement getPricetoWinElement(WebDriver webDriver, String priceToWin)
 	{
-		WebElement webElement = Utils.findElement(webDriver, "//a[contains(@data-link-pricetoplace,'" + priceToPlace + "')]", Config.LOCATOR_TYPE.XPATH);
+		WebElement webElement = Utils.findElement(webDriver, "//a[contains(@data-link-pricetowin,'" + priceToWin + "')]", Config.LOCATOR_TYPE.XPATH);
 		return webElement;
 	}
 	

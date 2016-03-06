@@ -40,7 +40,7 @@ public class BetImpl implements IWHTest
 		
 		if(isRaceSelected)
 		{
-			raceCardActions.clickPricetoPlace("1.55");
+			raceCardActions.clickPricetoWin("1.55");
 			raceCardActions.clickBetSlipButton();
 
 			betSlipActions.clickStakeTxtBox();

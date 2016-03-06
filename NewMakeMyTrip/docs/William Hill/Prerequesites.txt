@@ -3,4 +3,5 @@ Softwares:
 	Java 1.7 or above
 	Selenium 2.52
 	Drivers
+	TestNG plugin installed in eclipse
 	

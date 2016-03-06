@@ -24,6 +24,8 @@ public class RaceCardActions
 	
 	public boolean selectRaceCard(String track, int race)
 	{
+		track = track.toLowerCase();
+		
 		WebElement webElement = RaceCardPage.getRaceCardElement(webDriver, track, race);
 		
 		if(webElement == null || !webElement.isEnabled())

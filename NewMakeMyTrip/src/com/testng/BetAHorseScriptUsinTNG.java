@@ -18,6 +18,35 @@ public class BetAHorseScriptUsinTNG
 {
 	private BetImpl betImpl = null;
 
+	@DataProvider
+	public Object[][] testData() 
+	{
+		return new Object[][] 
+				{
+			new Object[] {"Bunbury", 8, "2.4"},
+			new Object[] {"Bunbury", 9, "2.9"},
+				};
+	}
+
+    @Parameters({"URL"})
+	@BeforeTest
+	public void launchBrowser(String url)
+	{
+		System.out.println("URL : " + url);
+		betImpl = new BetImpl();
+		betImpl.init(url);
+	}
+
+	@AfterTest
+	public void closeBrowser() 
+	{
+		System.out.println("Closing Browser.");
+		WebDriver webDriver = betImpl.getWebDriver();
+		Utils utils = new Utils(webDriver);
+		utils.closeBrowser();
+
+	}
+	
 	@Test(dataProvider = "testData")
 	public void selectRace(String track, int race, String priceToPlace) 
 	{
@@ -55,34 +84,5 @@ public class BetAHorseScriptUsinTNG
 		keyPadActions.clickCloseKeyPadBtn();
 
 		betSlipActions.clickConfirmBetBtnElement();
-	}
-
-	@DataProvider
-	public Object[][] testData() 
-	{
-		return new Object[][] 
-				{
-			new Object[] {"flemington", 8, "2.15"},
-			new Object[] {"ascot", 3, "3.4"},
-				};
-	}
-
-    @Parameters({"URL"})
-	@BeforeTest
-	public void launchBrowser(String url)
-	{
-		System.out.println("URL : " + url);
-		betImpl = new BetImpl();
-		betImpl.init(url);
-	}
-
-	@AfterTest
-	public void closeBrowser() 
-	{
-		System.out.println("Closing Browser.");
-		WebDriver webDriver = betImpl.getWebDriver();
-		Utils utils = new Utils(webDriver);
-		utils.closeBrowser();
-
 	}
 }

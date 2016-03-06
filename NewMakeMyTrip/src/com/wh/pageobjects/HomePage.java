@@ -7,8 +7,8 @@ import org.openqa.selenium.WebElement;
 public class HomePage 
 {
 	public static WebElement getHorseRacingTabElement(WebDriver webDriver)
-	{
-		WebElement webElement = webDriver.findElement(By.xpath("//*[@id='local-nav']/div/ul[1]/li[1]/a"));
+	{												
+		WebElement webElement = webDriver.findElement(By.xpath("//a[@data-gaq-id='Horse Racing']"));
 		return webElement;
 	}
 }
